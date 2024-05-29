@@ -3,7 +3,6 @@ from serial import Serial
 import time
 import matplotlib
 import matplotlib.pyplot as plt
-import math
 
 ser = serial.Serial('COM7',9600)
 my_time = 5 # length of time desired to read from sensor 
